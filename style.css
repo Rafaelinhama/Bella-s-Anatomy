@@ -1,0 +1,68 @@
+body {
+    color: white;
+    font-family: "Katibeh", serif;
+    background: #22dcdf;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+
+}
+
+header {
+    border-bottom: solid 2px #1f6061;
+    font-size: 70px;
+    padding: 15px;
+    color: #1f6061;
+    font-family: "Katibeh", serif;
+
+}
+
+.chamada-texto { 
+    background: #35898c;
+   padding: 10px;
+    justify-content: center;
+}
+
+.chamada-texto {
+  
+    font-size: 20px;
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2{ 
+    font-family: "Katibeh", serif;
+    font-size: 60px;
+    text-align: left;
+    color: #1f6061;
+    border-bottom: solid 2px rgb(26, 97, 93);
+}
+
+.recomendados {
+
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+
+.minis {
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.recomendados img {
+    opacity: 60%;
+    height: 200px;
+}
+
+.recomendados img:hover{
+   opacity: 100%;
+   border: solid 2px rgb(26, 97, 93);
+}
